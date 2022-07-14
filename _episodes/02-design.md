@@ -25,3 +25,5 @@ general
 ## Technical Replication
 
 control every aspect of variablity that you can. sample prep etc
+
+what is downstram analysis - a particular software may have demands.
