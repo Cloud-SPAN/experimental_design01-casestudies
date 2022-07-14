@@ -24,3 +24,5 @@ if you have a very good reference - short reads fine, can do lots of samples, th
 if you are doing assemblies - long reads better, then to get depth do few samples
 depends on size of genome and one ploidy
 eg snp calling on bacteria need not be deep, hetero snps on what - need depth
+de novo needs more coverage
+genome content - repetitiveness effect on assembly
