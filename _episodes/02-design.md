@@ -3,18 +3,25 @@ title: "Case Study 2 --- something great twice"
 teaching: 20
 exercises: 10
 questions:
-- Replication - types and number
-- Controls types of
+- How many replicates do I need?
+- What controls do I need 
+- What are sequence coverage and depth
 objectives:
 - understand the difference between biological and technical replication   
-- important of controls
+- understand important of controls
+- understand depth and coverage
 keypoints:
 - "X,Y,Z are important and should be looked at when deigning experiments"
 
 ---
 
 
-# Design
+# Replication
+general
 
-coverage: highly conserved, needs lower coverage
-is snp
+
+## Biolocial replication
+
+## Technical Replication
+
+
