@@ -24,4 +24,4 @@ general
 
 ## Technical Replication
 
-
+control every aspect of variablity that you can. sample prep etc
