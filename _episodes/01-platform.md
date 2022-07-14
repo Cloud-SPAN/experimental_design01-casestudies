@@ -26,3 +26,5 @@ depends on size of genome and one ploidy
 eg snp calling on bacteria need not be deep, hetero snps on what - need depth
 de novo needs more coverage
 genome content - repetitiveness effect on assembly
+
+# dealing with existing data
