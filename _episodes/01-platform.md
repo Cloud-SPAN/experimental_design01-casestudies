@@ -27,4 +27,7 @@ eg snp calling on bacteria need not be deep, hetero snps on what - need depth
 de novo needs more coverage
 genome content - repetitiveness effect on assembly
 
+## sequencing facility
+ york, glasgow, edinburgh, sheffiled, earlham, liverpool, 
+
 # dealing with existing data
