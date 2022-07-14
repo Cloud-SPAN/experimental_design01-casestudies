@@ -15,3 +15,6 @@ keypoints:
 
 
 # Design
+
+coverage: highly conserved, needs lower coverage
+is snp
