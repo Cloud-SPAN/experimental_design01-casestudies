@@ -51,6 +51,7 @@ There are lots of ways in which your research question can impact on what sequen
 
 The current sequencing methods evolve rapidly, however there are established sequencing facilities that your data may be generated from if you are based in the UK. Some of the bigger centres are listed below. They should be able to inform you on the most up to date library preparation methods, how much data is required for your downstream analysis and any other requirements for sequencing:
 
+
 [University of York, Technology Facility](https://www.york.ac.uk/biology/technology-facility/genomics/)
 
 [University of Glasgow, Polyomics facility](https://www.polyomics.gla.ac.uk/)
@@ -65,11 +66,13 @@ The current sequencing methods evolve rapidly, however there are established seq
 
 You may be dealing with data that you haven't generated yourself, and have no control over experimental design. This could be data that is already within your lab, or this could be that you are using data that is in a data repository such as the european nucleotide archive [ENA](https://www.ebi.ac.uk/ena/browser/home or the short read archive) or [SRA](https://www.ncbi.nlm.nih.gov/sra).
 
+
 If this is the case you may want to think of a few of the following? We will cover some of these points, such as replication and controls in greater detail, so don't worry if you don't understand these now.
 
 - Will you be able to answer your research question with the data you are using?
 - If not, could you adapt your research question to use the data and answer this new question?
 - Is the platform used appropriate for your downstream analysis?
+
 
 We should also be able to answer these additional questions later today
 
