@@ -20,9 +20,9 @@ keypoints:
 
 # Outline
 
-When we talk about sequencing, we can generally group it into either long read or short read sequencing.  However these are actually third generation and second generation sequencing technologies. Sanger sequencing was the first generation of sequencing and could sequence longer fragments than short read sequencing of today, however it was low throughput. Second generation sequencing, or next generation sequencing (NGS) as it is more commonly called, is a much higher throughput method but with reads typically 150-300bp long. As of July 2022, the NextSeq 550 high-output system runs  were capable of generating upto 800 million paired-end reads [https://emea.illumina.com/systems/sequencing-platforms/nextseq/specifications.html] in one run. Currently illumina sequencing is the predominant short read technology. Due to the length of the reads, the DNA/cDNA fragments ned to be broken into smaller pieces during the library preparation process, either through chemical means or through sonication. This is a key difference between short and long read technologies.
+When we talk about sequencing, we can generally group it into either long read or short read sequencing.  However these are actually third generation and second generation sequencing technologies. Sanger sequencing was the first generation of sequencing and could sequence longer fragments than short read sequencing of today, however it was low throughput. Second generation sequencing, or next generation sequencing (NGS) as it is more commonly called, is a much higher throughput method but with reads typically 150-300bp long. As of July 2022, the NextSeq 550 high-output system runs  were capable of generating upto [800 million paired-end reads](https://emea.illumina.com/systems/sequencing-platforms/nextseq/specifications.html)in one run. Currently illumina sequencing is the predominant short read technology. Due to the length of the reads, the DNA/cDNA fragments ned to be broken into smaller pieces during the library preparation process, either through chemical means or through sonication. This is a key difference between short and long read technologies.
 
-Long read sequencing is third generation sequencing, the current leading technologies for this are nanopore and pacbio. Unlike short read sequencing, these samples do not need fragmenting and so depending on the quality of the sample, reads are often several kb in length and 10-30kb fragments are common in good quality sample cases. Currently the longest read length for a nanopore run is 2.3Mb https://www.biorxiv.org/content/10.1101/312256v1.full.
+Long read sequencing is third generation sequencing, the current leading technologies for this are nanopore and pacbio. Unlike short read sequencing, these samples do not need fragmenting and so depending on the quality of the sample, reads are often several kb in length and 10-30kb fragments are common in good quality sample cases. Currently the longest read length for a nanopore run is 2.3Mb [see here](https://www.biorxiv.org/content/10.1101/312256v1.full).
 
 # Which type of sequencing is the most appropriate for me?
 
@@ -46,18 +46,18 @@ There are lots of ways in which your research question can impact on what sequen
 
 The current sequencing methods evolve rapidly, however there are established sequencing facilities that your data may be generated from if you are based in the UK. Some of the bigger centres are listed below. They should be able to inform you on the most up to date library preparation methods, how much data is required for your downstream analysis and any other requirements for sequencing:
 
-University of York, Technology Facility https://www.york.ac.uk/biology/technology-facility/genomics/
+[University of York, Technology Facility](https://www.york.ac.uk/biology/technology-facility/genomics/)
 
-University of Glasgow, https://www.polyomics.gla.ac.uk/
+[University of Glasgow, Polyomics facility](https://www.polyomics.gla.ac.uk/)
 
-University of Sheffield, https://www.sheffield.ac.uk/medicine/facilities/genomics-core-facility
+[University of Sheffield, Genomics core facility](https://www.sheffield.ac.uk/medicine/facilities/genomics-core-facility)
 
-University of Liverpool, https://www.liverpool.ac.uk/genomic-research/
+[University of Liverpool, Centre of Genomic Research] (https://www.liverpool.ac.uk/genomic-research/)
 
 
 # How to deal with data from experiments you haven't designed?
 
-You may be dealing with data that you haven't generated yourself, and have no control over experimental design. This could be data that is already within your lab, or this could be that you are using data that is in a data repository such as the european nucleotide archive (ENA) https://www.ebi.ac.uk/ena/browser/home or the short read archive (SRA) https://www.ncbi.nlm.nih.gov/sra.
+You may be dealing with data that you haven't generated yourself, and have no control over experimental design. This could be data that is already within your lab, or this could be that you are using data that is in a data repository such as the european nucleotide archive [ENA](https://www.ebi.ac.uk/ena/browser/home or the short read archive) or [SRA](https://www.ncbi.nlm.nih.gov/sra).
 
 If this is the case you may want to think of a few of the following? We will cover some of these points, such as replication and controls in greater detail, so don't worry if you don't understand these now.
 
