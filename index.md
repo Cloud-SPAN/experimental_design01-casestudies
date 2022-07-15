@@ -2,4 +2,4 @@
 layout: lesson
 root: .
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In these three episodes we will cover what platforms are available for sequencing. We will also cover how your downstream application may alter what is the most appropriate platform for your experiment. We will also cover replication in design. You will be able to understand the difference between biological and technical replicates, and how using these can impact the usefulness of your data downstream. We will also relate how replication can impact on the power of your data and how it will impact statistial analysis downstream. 
