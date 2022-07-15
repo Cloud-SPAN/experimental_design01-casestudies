@@ -1,5 +1,5 @@
 ---
-title: "What platforms are available, and what is best for my experiment?"
+title: "Platforms available and what is best for my experiment?"
 teaching: 20
 exercises: 20
 questions:
