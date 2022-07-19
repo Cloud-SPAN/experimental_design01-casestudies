@@ -48,7 +48,7 @@ In high throughput experiments, such as generating proteomic data, or sequencing
 
 There are a couple of common correction methods. The two most common are Bonferroni and the Benjamini and Hochberg False Discovery Rate. You might see these referred to as the BC (Bonferroni Correction), BH  (Benjamini Hochberg), and FDR (False Discovery Rate).
 
-## Bonferroni corection
+## Bonferroni correction
  This is calculated by multiplying the p-value of the test by the number of total tests performed. If we use an error rate of 0.05, and the corrected value is still under 0.05, it is considered significant.
 
  **Corrected p-value = p-value * n (number of tests)**
