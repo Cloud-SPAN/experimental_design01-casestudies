@@ -76,16 +76,18 @@ This correction is less stringent. As a result you will end up with more false p
 
  ![p-values](../fig/p-value_table-1.png)
 
- Gene A  **Corrected p-value = 0.2 * (24,000/24,000)**
+ **Gene A**  
+
+ **Corrected p-value = 0.2 * (24,000/24,000)**
 
  For the largest p-value gene, the rank and number of tests equals 1, and so this p-value is not corrected
 
- Gene B
+ **Gene B**
 
   **Corrected p-value = 0.06 * (24,000/23,999)**
 
 
- Gene C
+ **Gene C**
 
 **Corrected p-value = 0.04 * (24,000/23,998)**
 
