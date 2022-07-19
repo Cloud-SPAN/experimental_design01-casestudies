@@ -74,21 +74,17 @@ This correction is less stringent. As a result you will end up with more false p
 
  If we look at the top three genes (largest p-values) using the mouse RNAseq example again. The number of genes (n) is 24,000. We are setting the error rate at 0.05. We are ranking from smallest to largest, so the largest values will have the highest ranks. The gene with the highest p-value, 0.2, will have a rank of 24,000. The second and third, will have ranks 23,999, 23,998.
 
- Gene A has an uncorrected p-value of 0.2 and a rank of 24,000
+ ![p-values](../fig/p-value_table-1.png)
 
- **Corrected p-value = 0.2 * (24,000/24,000)**
+ Gene A  **Corrected p-value = 0.2 * (24,000/24,000)**
 
  For the largest p-value gene, the rank and number of tests equals 1, and so this p-value is not corrected
 
- Gene B has an uncorrected p-value of 0.05 and a rank of 23,999
-
- **Corrected p-value = 0.06 * (24,000/23,999)**
+ Gene B **Corrected p-value = 0.06 * (24,000/23,999)**
 
  This corrects the p-value to 0.0600025001
 
- Gene C has an uncorrected p-value of 0.04 and a rank of 23,998
-
-**Corrected p-value = 0.04 * (24,000/23,998)**
+ Gene C **Corrected p-value = 0.04 * (24,000/23,998)**
 
 This corrects the corrects the p-value to 0.04000333361. Which is significant.
 
