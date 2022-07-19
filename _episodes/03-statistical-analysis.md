@@ -19,6 +19,7 @@ keypoints:
 
 ---
 
+
 **Note this is not a statistics course, and there are plenty of free resources where you can find out more about how type I and type II errors are calculated. This is just enough information for you to have the key concepts needed for this course**
 
 # What are type I and type II errors?
@@ -27,7 +28,7 @@ keypoints:
 
 When you have rejected a true null hypothesis incorrectly. Your finding appears significant but this has occured by chance.
 
-## How to counter?
+### How to counter?
 
 The probability of type I errors are represented by an alpha value (**α**). This is the significance level (the p-value),  that you have used to reject the null hypthothesis. The commonly used 0.05 value means that you accept a 5% chance of a insignificant value being accidentally significant.You can reduce type I errors by using a lower p-value, e.g. using a 0.01 p value would lower the chance of a type I error to 1%.
 
@@ -35,9 +36,10 @@ The probability of type I errors are represented by an alpha value (**α**). Thi
 
 You have failed to reject the null hypthothesis. Your finding appears insignificant but is it is significant.
 
-## How to counter
+### How to counter
 
 Type II errors are related to the power of a statistical test. The probability of a type II error is represented by a beta value (**β**). The power of a statistical test is calculated as power = 1- β. The larger the β value, the higher the risk of type II errors. You can reduce type II errors by making sure you test has enough power. This can be controlled by making sure your sample size is large enough to observe the effect you're measuring. One of the ways you can do this is to include enough replicates in your experimental design. It also depends on how big the effect is you're trying to test. Smaller effects will require large sample sizes.
+
 
 
 # What do we need multiple testing correction?
