@@ -80,13 +80,16 @@ This correction is less stringent. As a result you will end up with more false p
 
  For the largest p-value gene, the rank and number of tests equals 1, and so this p-value is not corrected
 
- Gene B **Corrected p-value = 0.06 * (24,000/23,999)**
+ Gene B
 
- This corrects the p-value to 0.0600025001
+  **Corrected p-value = 0.06 * (24,000/23,999)**
 
- Gene C **Corrected p-value = 0.04 * (24,000/23,998)**
 
-This corrects the corrects the p-value to 0.04000333361. Which is significant.
+ Gene C
+
+**Corrected p-value = 0.04 * (24,000/23,998)**
+
+
 
 Due to the ratio between (n/rank), the correction is more stringent as the p-value decreases.
 
