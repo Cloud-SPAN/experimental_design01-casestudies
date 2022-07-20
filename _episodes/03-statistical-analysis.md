@@ -75,7 +75,7 @@ This correction is less stringent. As a result you will end up with more false p
  If we look at the top three genes (largest p-values) using the mouse RNAseq example again. The number of genes (n) is 24,000. We are setting the error rate at 0.05. We are ranking from smallest to largest, so the largest values will have the highest ranks. The gene with the highest p-value, 0.2, will have a rank of 24,000. The second and third, will have ranks 23,999, 23,998.
 
 
-        |p-value |  Rank Corrected | p-value |
+|        |p-value |  Rank Corrected | p-value |
 |-------|--------|-----------------|---------|
 | Gene A | 0.2 | 24,000 | Uncorrected |
 | Gene B | 0.06 | 23,999 | 0.060002501b |
