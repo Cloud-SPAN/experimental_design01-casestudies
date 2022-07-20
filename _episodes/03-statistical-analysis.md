@@ -81,6 +81,7 @@ This correction is less stringent. As a result you will end up with more false p
 | Gene B | 0.06 | 23,999 | 0.0600025001 |
 | Gene C | 0.04 | 23,998 | 0.04000333361 |
 
+
  **Gene A**  
 
  **Corrected p-value = 0.2 * (24,000/24,000)**
