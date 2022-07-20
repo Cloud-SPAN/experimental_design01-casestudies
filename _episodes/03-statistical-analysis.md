@@ -78,7 +78,7 @@ This correction is less stringent. As a result you will end up with more false p
 |        |p-value |  Rank Corrected | p-value |
 |-------|--------|-----------------|---------|
 | Gene A | 0.2 | 24,000 | Uncorrected |
-| Gene B | 0.06 | 23,999 | 0.060002501b |
+| Gene B | 0.06 | 23,999 | 0.0600025001 |
 | Gene C | 0.04 | 23,998 | 0.04000333361 |
 
  **Gene A**  
