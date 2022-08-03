@@ -18,7 +18,7 @@ keypoints:
 ---
 
 
-# Outline
+# Outline  
 
 
 When we talk about sequencing, we can generally group it into either long read or short read sequencing.  However these are actually third generation and second generation sequencing technologies. Sanger sequencing was the first generation of sequencing and could sequence longer fragments than short read sequencing of today, however it was low throughput. Second generation sequencing, or next generation sequencing (NGS) as it is more commonly called, is a much higher throughput method but with reads typically 150-300bp long. As of July 2022, the NextSeq 550 high-output system runs  were capable of generating upto [800 million paired-end reads](https://emea.illumina.com/systems/sequencing-platforms/nextseq/specifications.html) in one run. Currently illumina sequencing is the predominant short read technology. Due to the length of the reads, the DNA/cDNA fragments ned to be broken into smaller pieces during the library preparation process, either through chemical means or through sonication. This is a key difference between short and long read technologies.
