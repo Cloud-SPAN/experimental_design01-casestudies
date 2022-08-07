@@ -16,19 +16,42 @@ keypoints:
 - "X,Y,Z are important and should be looked at when deigning experiments"
 
 ---
+# Controls
+
+type depends on experiment and question
+
+examples
+- wildtype aganst gene knockout/modification
+- characterisation of cell types
+- treatments vs no treatment
+- genome of bacteria cutured vs in a plant host
+- genome of host with and without infection by bacteria
 
 
 # Replication
 general
 
 
-## Biolocial replication
+## Biologicial replication
+Most biologists instinctively appreciate the importance of biological replication to ensure that experimental results generalise. If we compare one wildtype plant against one geneticaly modified plant
 
 ## Technical Replication
+measurement accuracy
 
 control every aspect of variablity that you can. sample prep etc
 
-what is downstram analysis - a particular software may have demands.
+what is downstream analysis - a particular software may have demands.
+
+## Effect of replication on statistical analysis
+
+depends on variation
+calculation of, source of the  n = 3 rule
+for signifcance, variation within groups < variation between group
+some variation can be controlled, some is inherent. control as much as you can
+importance of controlling as much variation as possible = fewer replicates needed. increasing more variation that is strictly requires greater replication.
+
+
+## Pseudoreplication
 
 # Budget
 number of samples
