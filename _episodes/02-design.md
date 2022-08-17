@@ -3,8 +3,8 @@ title: "Understanding experimental design"
 teaching: 20
 exercises: 10
 questions:
-- How many replicates do I need?
 - What controls do I need
+- How many replicates do I need?
 - What are sequence coverage and depth
 - What can I afford
 objectives:
