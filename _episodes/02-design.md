@@ -39,9 +39,8 @@ Biological replicates from multiple distinct samples need to be taken for each e
 Biological replication determines the sample size.
 
 ## Technical Replication
-Technical replicates are those we make to ensure the reproducibility of the data generated using identical protocols and equipment. Technical replicates are done on the same biological sample so that the only variation between replicates is due to random variation in protocol and equipment outputs. Only if the variation between technical replicates is small relative to the variation between biological replicates can we be sure the variation is down to biology. Technical replication does not contribute to sample size - if you have taken 10 techincal replicates from each of two biological replicates, your sample size is n = 2.
+Technical replicates are those we make to ensure the reproducibility of the data generated using identical protocols and equipment. Technical replicates are done on the same biological sample so that the only variation between replicates is due to random variation in protocol and equipment outputs. Only if the variation between technical replicates is small relative to the variation between biological replicates can we be sure the variation is down to biology. Technical replication does not contribute to sample size - if you have taken 10 techincal replicates from each of two biological replicates, your sample size is n = 2. Technical replicates are non-independent - the values for one techincal replicate are more similar to those from another technical replicate on the same biological replicate than to any technical replicate from another biological replicate.
 
-## Pseudoreplication
 
 ## Effect of replication on statistical analysis
 
@@ -64,8 +63,11 @@ might need to amend your question to meet budget
 Storage conditions such as preservation method, duration in storage and the temperature of freezers and refrigerators can affect DAN yield and quality therefore it is essential to rigorously treat all you samples exactly the same way. This minimises the variation between samples which has nothing to do with the effects of interest.
 
 # Sequencing coverage and depth
-coverage must be sufficient for assembly
+Sequencing depth (also known as read depth or depth of coverage) is the average number of time a bases is sequenced. It is calculated as the number of bases of all reads that match a genome divided by the length of the gene. It is often expresed as 2X (two times coverage), 5X etc.
 
+
+coverage must be sufficient for assembly
+<img align="center" width="800" height="600" src="{{ page.root }}/fig/coverage.png" alt="Per base sequence quality graph from the Fastqc output we generated above">
 
 # Further reading
 
