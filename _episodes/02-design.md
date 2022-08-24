@@ -30,12 +30,12 @@ Positive controls are samples that should have known results and they used to ch
 
 
 # Replication
-general
+We replicate because things vary and we want to be certain our conclusions are based on 
 
 
 ## Biologicial replication
 Most biologists instinctively appreciate the importance of biological replication to ensure that experimental results generalise. If the yield of one geneticaly modified plant is higher than that of one wildtype plant we cannot be sure that this is because of the modifcation (i.e., generalisable) or is a difference just in these two plants. Having multiple GMO and WT plants allows us to determine if the variation been plants types is greater than the random variation within plant types.
-Biological replicates from multiple distinct samples need to be taken for each experimental group (e.g., the same treatment or condition) to provide a measure of within-group variation. It is common to see three replicates being recommended - this is an absolute minimum suitable only when the variation between samples within experimental groups is low compared to that between experimental groups. This situation is typical in cell biology experiments when experimental conditions are well controlled and often on genetically homogenous cell lines or organisims. It is far less likely for environmental sampling of microbial communities when it is wiser to have more samples. It is often worth limiting the number of experimental conditions so that sufficient replication in each condition can be achieved. 
+Biological replicates from multiple distinct samples need to be taken for each experimental group (e.g., the same treatment or condition) to provide a measure of within-group variation. It is common to see three replicates being recommended - this is an absolute minimum suitable only when the variation between samples within experimental groups is low compared to that between experimental groups. This situation is typical in cell biology experiments when experimental conditions can be made very consistent using genetically homogenous cell lines or organisims. It is far less likely for environmental sampling of microbial communities. As a general rule, the greater the random biological variation, the greater the need for more replicates. It is often worth limiting the number of experimental conditions so that sufficient replication in each condition can be achieved. 
 Biological replication determines the sample size.
 
 ## Technical Replication
