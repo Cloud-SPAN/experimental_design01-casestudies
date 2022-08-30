@@ -6,14 +6,17 @@ questions:
 - What controls do I need
 - How many replicates do I need?
 - What are sequence coverage and depth
-- What can I afford
 objectives:
 - understand the difference between biological and technical replication   
 - understand important of controls
-- understand depth and coverage
-- Identify best choices when budget is limited
+- understand sequence depth and coverage
 keypoints:
-- "X,Y,Z are important and should be looked at when designing experiments"
+- Most experiments need positive and negative controls
+- Technical replicates ensure our measures are reproducible
+- Biological replicates ensure our results generalise
+- Coverage is the percentage of the reference genome sequenced
+- Depth is the average number of time a base is sequenced
+- There is a trade-off between sequencing depth and the need for controls and replicates
 
 ---
 # Controls
@@ -43,21 +46,24 @@ Technical replicates are those we make to ensure the reproducibility of the data
 Storage conditions such as preservation method, duration in storage and the temperature of freezers and refrigerators can affect DAN yield and quality therefore it is essential to rigorously treat all you samples exactly the same way. This minimises the variation between samples which has nothing to do with the effects of interest.
 
 # Depth and coverage
-The use of these terms is not consistent but coverage used on its own usually means the the % of the reference genome sequenced.  Sequencing depth is also known as *read depth* or *depth of coverage*.  It is the average number of time a base is sequenced. Every base in a sample must be sequencing multiple times. This is because
+The use of these terms is not consistent but coverage used on its own usually means the the percentage of the reference genome sequenced. It is also known as *breadth of coverage*. However, you do see coverage used to mean depth - the context normally makes it clear which is meant.  Sequencing depth is also known as *read depth* or *depth of coverage* or *redundancy of coverage*.  It is the average number of time a base is sequenced. Every base in a sample must be sequencing multiple times. This is because
 - base calling is not 100% accurate so you meed multiple observations per base to reliably determine the base
 - reads are distributed randomly, not evenly, across the genome so that some bases will be sequences more than average, others less than average. 
 Depth is calculated by the total number of bases of aligned by the length of the genome or targetted subset of the genome. It is often expresed as 2X (two times coverage), 5X etc. Deep sequencing means aiming for a high number of reads for each base.
 
+The amount of coverage needed depends on the sequencing error rate, the read length and the system under study.. If you are trying to detect rare events, such as rare SNPs in genomics or lowly expressed genes in transcriptomics you will need greater depth.
 
 # Further reading
 
 
-Di Bella, J.M., Bao, Y., Gloor, G.B., Burton, J.P., Reid, G., 2013. High throughput sequencing methods and analysis for microbiome research. Journal of Microbiological Methods 95, 401–414. https://doi.org/10.1016/j.mimet.2013.08.011
+Di Bella, J.M., Bao, Y., Gloor, G.B., Burton, J.P., Reid, G., 2013. High throughput sequencing methods and analysis for microbiome research. Journal of Microbiological Methods 95, 401–414. [https://doi.org/10.1016/j.mimet.2013.08.011](https://doi.org/10.1016/j.mimet.2013.08.011)
 
-Goodrich, J.K., Di Rienzi, S.C., Poole, A.C., Koren, O., Walters, W.A., Caporaso, J.G., Knight, R., Ley, R.E., 2014. Conducting a Microbiome Study. Cell 158, 250–262. https://doi.org/10.1016/j.cell.2014.06.037
+Goodrich, J.K., Di Rienzi, S.C., Poole, A.C., Koren, O., Walters, W.A., Caporaso, J.G., Knight, R., Ley, R.E., 2014. Conducting a Microbiome Study. Cell 158, 250–262. [https://doi.org/10.1016/j.cell.2014.06.037](https://doi.org/10.1016/j.cell.2014.06.037)
 
-Ju, F., Zhang, T., 2015. Experimental Design and Bioinformatics Analysis for the Application of Metagenomics in Environmental Sciences and Biotechnology. Environ. Sci. Technol. 49, 12628–12640. https://doi.org/10.1021/acs.est.5b03719
+Ju, F., Zhang, T., 2015. Experimental Design and Bioinformatics Analysis for the Application of Metagenomics in Environmental Sciences and Biotechnology. Environ. Sci. Technol. 49, 12628–12640. [https://doi.org/10.1021/acs.est.5b03719](https://doi.org/10.1021/acs.est.5b03719)
 
-Kim, D., Hofstaedter, C.E., Zhao, C. et al. Optimizing methods and dodging pitfalls in microbiome research. Microbiome 5, 52 (2017). https://doi.org/10.1186/s40168-017-0267-5
+Kim, D., Hofstaedter, C.E., Zhao, C. et al. Optimizing methods and dodging pitfalls in microbiome research. Microbiome 5, 52 (2017). [https://doi.org/10.1186/s40168-017-0267-5](https://doi.org/10.1186/s40168-017-0267-5)
 
-Salter, S.J., Cox, M.J., Turek, E.M. et al. Reagent and laboratory contamination can critically impact sequence-based microbiome analyses. BMC Biol 12, 87 (2014). https://doi.org/10.1186/s12915-014-0087-z
+Salter, S.J., Cox, M.J., Turek, E.M. et al. Reagent and laboratory contamination can critically impact sequence-based microbiome analyses. BMC Biol 12, 87 (2014). [https://doi.org/10.1186/s12915-014-0087-z](https://doi.org/10.1186/s12915-014-0087-z)
+
+Sims, D., Sudbery, I., Ilott, N. et al. Sequencing depth and coverage: key considerations in genomic analyses. Nat Rev Genet 15, 121–132 (2014). [https://doi.org/10.1038/nrg3642](https://doi.org/10.1038/nrg3642)
