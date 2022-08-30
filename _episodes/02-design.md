@@ -28,46 +28,25 @@ Positive controls are samples that should have known results and they used to ch
 
 
 # Replication
-We replicate because things vary and we want to be certain our conclusions are based on 
+We replicate measurements because things vary and we want to be certain our conclusions are based on 
 
 
 ## Biologicial replication
 Most biologists instinctively appreciate the importance of biological replication to ensure that experimental results generalise. If the yield of one geneticaly modified plant is higher than that of one wildtype plant we cannot be sure that this is because of the modifcation (i.e., generalisable) or is a difference just in these two plants. Having multiple GMO and WT plants allows us to determine if the variation been plants types is greater than the random variation within plant types.
 Biological replicates from multiple distinct samples need to be taken for each experimental group (e.g., the same treatment or condition) to provide a measure of within-group variation. It is common to see three replicates being recommended - this is an absolute minimum suitable only when the variation between samples within experimental groups is low compared to that between experimental groups. This situation is typical in cell biology experiments when experimental conditions can be made very consistent using genetically homogenous cell lines or organisims. It is far less likely for environmental sampling of microbial communities. As a general rule, the greater the random biological variation, the greater the need for more replicates. It is often worth limiting the number of experimental conditions so that sufficient replication in each condition can be achieved. 
-Biological replication determines the sample size.
+As a general rule, the greater the replication the greater the power of any statistical testing.
 
 ## Technical Replication
-Technical replicates are those we make to ensure the reproducibility of the data generated using identical protocols and equipment. Technical replicates are done on the same biological sample so that the only variation between replicates is due to random variation in protocol and equipment outputs. Only if the variation between technical replicates is small relative to the variation between biological replicates can we be sure the variation is down to biology. Technical replication does not contribute to sample size - if you have taken 10 techincal replicates from each of two biological replicates, your sample size is n = 2. Technical replicates are non-independent - the values for one techincal replicate are more similar to those from another technical replicate on the same biological replicate than to any technical replicate from another biological replicate.
-
-
-## Effect of replication on statistical analysis
-
-depends on variation
-
-for signifcance, variation within groups < variation between group
-some variation can be controlled, some is inherent. control as much as you can
-importance of controlling as much variation as possible = fewer replicates needed. increasing more variation that is strictly requires greater replication.
-
-
-
-
-# Budget
-number of samples
-number of reps
-availability of equipment
-might need to amend your question to meet budget
+Technical replicates are those we make to ensure the reproducibility of the data generated using identical protocols and equipment. Technical replicates are done on the same biological sample so that the only variation between replicates is due to random variation in protocol and equipment outputs. Only if the variation between technical replicates is small relative to the variation between biological replicates can we be sure the variation is down to biology. Technical replication does not contribute to sample size - if you have taken 10 technical replicates from each of two biological replicates, your sample size is n = 2. Technical replicates are non-independent - the values for one technical replicate are more similar to those from another technical replicate on the same biological replicate than to any technical replicate from another biological replicate. Biological replication determines the sample size. 
 
 # Sample storage
 Storage conditions such as preservation method, duration in storage and the temperature of freezers and refrigerators can affect DAN yield and quality therefore it is essential to rigorously treat all you samples exactly the same way. This minimises the variation between samples which has nothing to do with the effects of interest.
 
 # Depth and coverage
-Every base in a sample must be sequencing multiple times. This is because
+The use of these terms is not consistent but coverage used on its own usually means the the % of the reference genome sequenced.  Sequencing depth is also known as *read depth* or *depth of coverage*.  It is the average number of time a base is sequenced. Every base in a sample must be sequencing multiple times. This is because
 - base calling is not 100% accurate so you meed multiple observations per base to reliably determine the base
 - reads are distributed randomly, not evenly, across the genome so that some bases will be sequences more than average, others less than average. 
-
-Sequencing depth is also known as *read depth* or *depth of coverage*.  It is the average number of time a base is sequenced. It is calculated by the total number of bases of aligned by the length of the genome or targetted subset of the genome. It is often expresed as 2X (two times coverage), 5X etc. Deep sequencing means aiming for a high number of reads for each base.
-
-<img align="center" width="600" src="{{ page.root }}/fig/coverage.png" alt=".......">
+Depth is calculated by the total number of bases of aligned by the length of the genome or targetted subset of the genome. It is often expresed as 2X (two times coverage), 5X etc. Deep sequencing means aiming for a high number of reads for each base.
 
 
 # Further reading
