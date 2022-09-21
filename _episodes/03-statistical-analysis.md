@@ -53,7 +53,7 @@ There are a couple of common correction methods. The two most common are Bonferr
 
  **Corrected p-value = p-value * n (number of tests)**
 
- Conversely, you can calculate the p-value threshold needed to pass the significance thershold after correction by dividing 0.05 * n.
+ Conversely, you can calculate the p-value threshold needed to pass the significance threshold after correction by dividing 0.05 * n.
 
  This is  very stringent. If you were looking at 24,000 genes like in the mouse example above, the p-value would have to be  **0.0000021** pre correction to pass.
 
