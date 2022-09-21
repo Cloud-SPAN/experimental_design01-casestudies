@@ -45,13 +45,13 @@ There are lots of ways in which your research question can impact on what sequen
 - Does your downstream analysis depend on the base quality of your reads e.g. for SNP calling, or is abundance more importance e.g. RNAseq and metagenomics?
 
 > ## Sequencing Technologies at a glance
-> 
+>
 > | Platform | Generation | Read length | Sequence Accuracy   | Other advantages  | Other disadvantages |    
 > |----------|------------|-------------|---------------------|-------------------|---------------------|
-> | Illumina | second-generation NGS | Short 150 - 300 bp | high | Relatively cheap, Can sequence fragemnted DNA | Not suitable for sequences with many repetitive elements,  methylation signatures, Relatively slow |
+> | Illumina | second-generation NGS | Short 150 - 300 bp | high | Relatively cheap, Can sequence fragmented DNA | Not suitable for sequences with many repetitive elements,  methylation signatures, Relatively slow |
 > | PacBio | third-generation NGS | Long 13,000 - 20,000 bp with a max of 300,000 | low | Easier library preparation, suitable for methylation signatures, Quick | Relatively expensive |
 > | Oxford Nanopore | third-generation NGS | Long 10,000 - 30,000 bp with a max of 2.3 million | low | portability, Easier library preparation, Quick, suitable for methylation signatures  |  |
-> 
+>
 {: .callout}
 
 ## Sequencing facilities
